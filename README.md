@@ -31,3 +31,6 @@ cd ../ && git clone https://github.com/certbot/certbot && cd certbot
 ```bash
 ./letsencrypt-auto renew --force-renew --manual --manual-auth-hook ../certbot-dns-webnames/authenticator.sh --manual-cleanup-hook ../certbot-dns-webnames/cleanup.sh --preferred-challenges dns-01 --server https://acme-v02.api.letsencrypt.org/directory
 ```
+
+#### 5) Howto API key
+API KEY можно найти в разделе "Личный кабинет" / "Мои домены и услуги" / "Управление доменом"(по интересующему домену) / "Управление зоной"(домен должен быть делегирован на DNS регистратора ns1.nameself.com; ns2.nameself.com) / "Настройка Certbot для домена ..." (внизу страницы)
