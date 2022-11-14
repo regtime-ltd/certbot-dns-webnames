@@ -1,7 +1,7 @@
 # certbot-dns-webnames
 DNS API for certbot --manual-auth-hook --manual-cleanup-hook
 
-Install and renew Let's encrypt wildcard ssl certificate for domain *.site.com using Webnames.ru:
+Install and renew Let's encrypt wildcard ssl certificate for domain *.domain.tld using Webnames.ru:
 
 #### 1) Clone this repo and set the API key
 ```bash
